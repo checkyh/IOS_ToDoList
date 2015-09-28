@@ -31,7 +31,7 @@
                     <navigationItem key="navigationItem" title="My To-Do List" id="l3q-K8-wzU">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="DSO-ku-GGM">
                             <connections>
-                                <segue destination="dFM-pk-ejX" kind="show" id="5jQ-9a-XYI"/>
+                                <segue destination="dFM-pk-ejX" kind="presentation" id="AXf-KG-WZ4"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -60,9 +60,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="LhU-wP-YKJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Jlo-yC-oKV"/>
-                            <constraint firstItem="LhU-wP-YKJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="Xpb-GX-p2z"/>
-                            <constraint firstItem="LhU-wP-YKJ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="tje-SN-14b"/>
+                            <constraint firstItem="LhU-wP-YKJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="WeD-QZ-EV3"/>
+                            <constraint firstItem="LhU-wP-YKJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="b3I-iU-ksC"/>
+                            <constraint firstItem="LhU-wP-YKJ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="cJg-3i-Ttb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Add To-Do Item" id="3dd-bh-DAV">
