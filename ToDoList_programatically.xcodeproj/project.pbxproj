@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6386D6321BD8D1250022BDEF /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6386D6311BD8D1250022BDEF /* ListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6386D6361BD8DDFF0022BDEF /* addItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6386D6341BD8DDFF0022BDEF /* addItemViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6386D6371BD8DDFF0022BDEF /* addItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6386D6351BD8DDFF0022BDEF /* addItemViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		63D95E541BD4CB0F00CD83AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D95E531BD4CB0F00CD83AF /* main.m */; };
 		63D95E571BD4CB0F00CD83AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D95E561BD4CB0F00CD83AF /* AppDelegate.m */; };
 		63D95E5F1BD4CB0F00CD83AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D95E5E1BD4CB0F00CD83AF /* Assets.xcassets */; };
 		63F5AD951BD6D7DF005F6BDD /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F5AD941BD6D7DF005F6BDD /* ToDoItem.m */; settings = {ASSET_TAGS = (); }; };
-		63F5AD9D1BD6EB25005F6BDD /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F5AD9C1BD6EB25005F6BDD /* ListViewController.m */; settings = {ASSET_TAGS = (); }; };
-		63F5ADA31BD6EF16005F6BDD /* addItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F5ADA21BD6EF16005F6BDD /* addItemViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6386D6301BD8D1250022BDEF /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListViewController.h; path = ../../ToDoList/ToDoList/ListViewController.h; sourceTree = "<group>"; };
+		6386D6311BD8D1250022BDEF /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListViewController.m; path = ../../ToDoList/ToDoList/ListViewController.m; sourceTree = "<group>"; };
+		6386D6331BD8DDFF0022BDEF /* addItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addItemViewController.h; sourceTree = "<group>"; };
+		6386D6341BD8DDFF0022BDEF /* addItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addItemViewController.m; sourceTree = "<group>"; };
+		6386D6351BD8DDFF0022BDEF /* addItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = addItemViewController.xib; sourceTree = "<group>"; };
 		63D95E4F1BD4CB0F00CD83AF /* ToDoList_programatically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList_programatically.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D95E531BD4CB0F00CD83AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63D95E551BD4CB0F00CD83AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -24,10 +30,6 @@
 		63D95E631BD4CB0F00CD83AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63F5AD931BD6D7DF005F6BDD /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
 		63F5AD941BD6D7DF005F6BDD /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
-		63F5AD9B1BD6EB25005F6BDD /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
-		63F5AD9C1BD6EB25005F6BDD /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
-		63F5ADA11BD6EF16005F6BDD /* addItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addItemViewController.h; sourceTree = "<group>"; };
-		63F5ADA21BD6EF16005F6BDD /* addItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +69,11 @@
 				63D95E521BD4CB0F00CD83AF /* Supporting Files */,
 				63F5AD931BD6D7DF005F6BDD /* ToDoItem.h */,
 				63F5AD941BD6D7DF005F6BDD /* ToDoItem.m */,
-				63F5AD9B1BD6EB25005F6BDD /* ListViewController.h */,
-				63F5AD9C1BD6EB25005F6BDD /* ListViewController.m */,
-				63F5ADA11BD6EF16005F6BDD /* addItemViewController.h */,
-				63F5ADA21BD6EF16005F6BDD /* addItemViewController.m */,
+				6386D6301BD8D1250022BDEF /* ListViewController.h */,
+				6386D6311BD8D1250022BDEF /* ListViewController.m */,
+				6386D6331BD8DDFF0022BDEF /* addItemViewController.h */,
+				6386D6341BD8DDFF0022BDEF /* addItemViewController.m */,
+				6386D6351BD8DDFF0022BDEF /* addItemViewController.xib */,
 			);
 			path = ToDoList_programatically;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63D95E5F1BD4CB0F00CD83AF /* Assets.xcassets in Resources */,
+				6386D6371BD8DDFF0022BDEF /* addItemViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,10 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6386D6321BD8D1250022BDEF /* ListViewController.m in Sources */,
+				6386D6361BD8DDFF0022BDEF /* addItemViewController.m in Sources */,
 				63F5AD951BD6D7DF005F6BDD /* ToDoItem.m in Sources */,
-				63F5ADA31BD6EF16005F6BDD /* addItemViewController.m in Sources */,
 				63D95E571BD4CB0F00CD83AF /* AppDelegate.m in Sources */,
-				63F5AD9D1BD6EB25005F6BDD /* ListViewController.m in Sources */,
 				63D95E541BD4CB0F00CD83AF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

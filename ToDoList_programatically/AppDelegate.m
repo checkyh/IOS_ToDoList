@@ -20,11 +20,10 @@
     self.window=[[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
     _listController=[[ListViewController alloc]init];
     _navController=[[UINavigationController alloc]initWithRootViewController:_listController];
-    
     _window.rootViewController=_listController;
     [self.window addSubview:_navController.view];
     [self.window makeKeyAndVisible];
-        return YES;
+    return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
